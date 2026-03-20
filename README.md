@@ -1,5 +1,4 @@
-AUTOMATIC-SCHEDULER
-
+# AUTOMATIC-SCHEDULER
 
 A Python-based academic scheduling system that generates optimized weekly class schedules using **Google OR-Tools CP-SAT**.
 
@@ -7,7 +6,7 @@ This desktop application helps automate timetable generation for faculty, rooms,
 
 ## Overview
 
-Automatic Scheduler is designed for academic departments that need a faster and more reliable way to prepare class schedules. Instead of manually arranging assignments, the system reads structured CSV input files and produces a feasible timetable through constraint-based optimization.
+Automatic Scheduler is designed for academic departments that need a faster and more reliable way to prepare class schedules. Instead of manually arranging assignments manually, the system reads structured CSV input files and produces a feasible timetable through constraint-based optimization.
 
 The application also provides validation tools, timetable viewing, CSV export, and sample input generation.
 
@@ -78,36 +77,40 @@ The system uses four CSV files:
 - `offerings.csv`
 
 ### Faculties CSV
-Required columns:
+
+**Required columns:**
 - `faculty_id`
 - `name`
 - `max_units`
 
-Optional columns:
+**Optional columns:**
 - `qualified_courses`
 - `availability`
 - `unavailable`
 - `preferred_rooms`
 
 ### Rooms CSV
-Required columns:
+
+**Required columns:**
 - `room_id`
 - `room_name`
 - `capacity`
 - `room_type`
 
-Optional columns:
+**Optional columns:**
 - `priority`
 - `unavailable`
 
 ### Sections CSV
-Required columns:
+
+**Required columns:**
 - `section_id`
 - `section_name`
 - `size`
 
 ### Offerings CSV
-Required columns:
+
+**Required columns:**
 - `offering_id`
 - `section_id`
 - `course_code`
@@ -117,20 +120,14 @@ Required columns:
 - `sessions_per_week`
 - `room_type`
 
-Optional columns:
+**Optional columns:**
 - `qualified_faculty`
 - `priority`
 
-## Time Format
+## Screenshots
+![Automatic-Scheduler 1](https://github.com/user-attachments/assets/10540cae-4f45-448d-9f2a-78a52488b465)
+![Automatic-Scheduler 2](https://github.com/user-attachments/assets/03d964c1-e853-4716-9819-bdd067165f44)
+![Automatic-Scheduler 3](https://github.com/user-attachments/assets/0cb82471-2b4f-48eb-94d3-58d37f0bf365)
+![Automatic-Scheduler 4](https://github.com/user-attachments/assets/71673f0f-9af3-4e93-b8b2-65720939584f)
 
-Availability and blocked times use the following format:
-
-```text
-Mon-07:00-09:00|Wed-13:00-15:00
-
-
-![Automatic-Scheduler 1](https://github.com/user-attachments/assets/ecdaf70b-0046-4a2d-8877-8ae9c1d87ff0)
-![Automatic-Scheduler 2](https://github.com/user-attachments/assets/ca312e84-b1a3-4b11-8ed2-a0219a2f8351)
-![Automatic-Scheduler 3](https://github.com/user-attachments/assets/b0747ca2-b0d6-4e52-81fc-0796879234c0)
-![Automatic-Scheduler 4](https://github.com/user-attachments/assets/aaa6ab10-2b28-4496-a48c-984134514e40)
 
