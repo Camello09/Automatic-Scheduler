@@ -126,8 +126,13 @@ The system uses four CSV files:
 
 ## Screenshots
 ![Automatic-Scheduler 1](https://github.com/user-attachments/assets/10540cae-4f45-448d-9f2a-78a52488b465)
-![Automatic-Scheduler 2](https://github.com/user-attachments/assets/03d964c1-e853-4716-9819-bdd067165f44)
-![Automatic-Scheduler 3](https://github.com/user-attachments/assets/0cb82471-2b4f-48eb-94d3-58d37f0bf365)
-![Automatic-Scheduler 4](https://github.com/user-attachments/assets/71673f0f-9af3-4e93-b8b2-65720939584f)
+
+![Automatic-Scheduler 2](https://github.com/user-attachments/assets/089fe430-7136-4ce5-bdba-98a117aa8d7e)
+
+![Automatic-Scheduler 3](https://github.com/user-attachments/assets/1ae5c3fb-3774-47be-b3df-f2f11c98e25c)
+
+![Automatic-Scheduler 4](https://github.com/user-attachments/assets/3a8ec3f2-a07d-4434-81de-96393325713e)
+
+![Automatic-Scheduler 5](https://github.com/user-attachments/assets/6d3d8b00-7494-4ca3-9d57-54db84d627a7)
 
 
