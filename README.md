@@ -1,4 +1,4 @@
-# Automatic Scheduler <img width="1024" height="1024" alt="Automatic-Scheduler Icon" src="https://github.com/user-attachments/assets/6df9ed9d-d89f-4731-ad10-574b8d8d5b0e" />
+AUTOMATIC-SCHEDULER
 
 
 A Python-based academic scheduling system that generates optimized weekly class schedules using **Google OR-Tools CP-SAT**.
@@ -127,4 +127,10 @@ Availability and blocked times use the following format:
 
 ```text
 Mon-07:00-09:00|Wed-13:00-15:00
+
+
+![Automatic-Scheduler 1](https://github.com/user-attachments/assets/ecdaf70b-0046-4a2d-8877-8ae9c1d87ff0)
+![Automatic-Scheduler 2](https://github.com/user-attachments/assets/ca312e84-b1a3-4b11-8ed2-a0219a2f8351)
+![Automatic-Scheduler 3](https://github.com/user-attachments/assets/b0747ca2-b0d6-4e52-81fc-0796879234c0)
+![Automatic-Scheduler 4](https://github.com/user-attachments/assets/aaa6ab10-2b28-4496-a48c-984134514e40)
 
