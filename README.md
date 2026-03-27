@@ -1,3 +1,5 @@
+<img width="1024" height="1024" alt="Automatic-Scheduler Icon" src="https://github.com/user-attachments/assets/49fcf099-6b22-48f8-9117-22e002b10480" />
+
 # AUTOMATIC-SCHEDULER
 
 A Python-based academic scheduling system that generates optimized weekly class schedules using **Google OR-Tools CP-SAT**.
